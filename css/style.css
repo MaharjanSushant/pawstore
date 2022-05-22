@@ -155,6 +155,7 @@ body{
     line-height: 1.1;
 }
 
+
 /*--header--*/
 ul{
     list-style: none;
@@ -321,4 +322,130 @@ ul.contact li {
     align-items: center;
 }
 
+/*--about us--*/
+.abtus-container{
+    background: #e6f1d6;
+}
 
+.para{
+    padding: 220px 100px 0 50px;
+}
+
+.rightimg{
+    padding: 80px 50px 50px 0;
+}
+
+/*--contactus--*/
+.location-container{
+    width: 100%;
+    height: 100vh;
+}
+
+iframe{
+    width: 95%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    padding: 50px 0 0 60px;
+}
+
+ul.grid{
+    padding: 50px 0 0 100px;
+    color: hsl(var(--clr-gray));
+}
+
+/*--Help--*/
+div.helpcontainer.flex{
+    padding: 50px 10px 50px 10px;
+}
+
+.help-img{
+    width: 100%;
+    height: auto;
+}
+
+div.content.grid{
+    padding-left: 50px;
+}
+
+.hlp-btn{
+    width: 35%;
+    height: 30px;
+    cursor: pointer;
+    background: #95A472;
+    color: white;
+    border: none;
+    font-size: 0.9rem;
+}
+
+
+.cnt1{
+    padding-right: 300px;
+}
+
+.cnt2{
+    padding-left: 300px;
+}
+
+.hlp-btn:hover{
+    background: #82846D;
+    transition: 0.4s;
+}
+
+/*--Application Form--*/
+.application-container{
+    background: #e6f1d6;
+    margin: 40px 100px 10px 100px;
+    padding: 10px 0 30px 50px;
+}
+
+.form{
+    padding-left: 250px;
+    margin-top: 10px;
+}
+
+#fname{
+    width: 250px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+#lname{
+    width: 250px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+#email{
+    width: 250px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+#address{
+    width: 250px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+#telephone{
+    width: 250px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.form-btn{
+    width: 8%;
+    height: 30px;
+    cursor: pointer;
+    background: #95A472;
+    color: white;
+    border: none;
+    font-size: 0.9rem;
+    margin: 0 0 50px 140px;
+}
+
+.form-btn:hover{
+    background: #82846D;
+    transition: 0.4s;
+}
