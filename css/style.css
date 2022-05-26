@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
 /* ------------------ */
 /* Custom Properties */
 /* ------------------ */
@@ -172,19 +175,27 @@ a{
     margin-left: 30px;
 }
 
+.headerlogo{
+    cursor: pointer; 
+    justify-content: center; 
+    align-items: center;
+    color: white;
+}
+
 header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     display: flex;
-    background-color: #C8E087;
+    background-color: #006954;
 }
 
 .nav{
     margin-right: 30px;
     font-size: 20px;
     font-weight: 550;
-    font-family: var(--ff-sans-cond)
+    font-family: var(--ff-sans-cond);
+    color: white;
 }
 
 .nav .nav-item{
@@ -197,19 +208,19 @@ header{
 }
 
 .nav-item:hover {
-    color: #95A472;
+    color: #2d991a;
 }
 
 .search{
-    display: inline-flex;
-    margin-left: 90px;
+    display: flex;
+    margin-left: 34px;
 }
 
 .search-btn{
     color: hsl(var(--clr-white));
     float: right;
     border-radius: 5px;
-    background: #95A472;
+    background: #004a43;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,12 +239,12 @@ header{
     font-size: 16px;
     transition: 0.4s;
     line-height: 30px;
-    width: 450px;
+    width: 350px;
     
 }
 
 .search-btn:hover{
-    background-color: #82846D;
+    background-color: #034a00;
     transition: 0.4s;
 }
 
@@ -273,7 +284,7 @@ header{
 .adpt-btn{
     width: 150px;
     cursor: pointer;
-    background: #95A472;
+    background: #2d991a;
     color: white;
     border: none;
     font-size: 1.25rem;
@@ -292,7 +303,7 @@ header{
 }
 
 .adpt-btn:hover{
-    background: #82846D;
+    background: #034a00;
     transition: 0.4s;
 }
 
@@ -302,11 +313,10 @@ footer{
     position: relative;
     bottom: 0;
     left: 0;
-    right: 0;
-    background-color: #C8E087;
+    background-color: #006954;
     height: auto;
     width: 100%;
-    color: hsl(var(--clr-black));
+    color: white;
     padding: 0 0 0 0;
     font-size: 1.2rem;
     display: flex;
@@ -332,7 +342,7 @@ ul.contact.flex{
 }
 
 .rightimg{
-    padding: 80px 50px 50px 0;
+    padding: 70px 50px 50px 0;
 }
 
 /*--contactus--*/
@@ -372,7 +382,7 @@ div.content.grid{
     width: 35%;
     height: 30px;
     cursor: pointer;
-    background: #95A472;
+    background: #2d991a;
     color: white;
     border: none;
     font-size: 0.9rem;
@@ -388,7 +398,7 @@ div.content.grid{
 }
 
 .hlp-btn:hover{
-    background: #82846D;
+    background: #034a00;
     transition: 0.4s;
 }
 
@@ -438,7 +448,7 @@ div.content.grid{
     width: 8%;
     height: 30px;
     cursor: pointer;
-    background: #95A472;
+    background: #2d991a;
     color: white;
     border: none;
     font-size: 0.9rem;
@@ -446,7 +456,7 @@ div.content.grid{
 }
 
 .form-btn:hover{
-    background: #82846D;
+    background: #034a00;
     transition: 0.4s;
 }
 
@@ -461,7 +471,7 @@ div.content.grid{
 .box-container .box{
     width: 270px;
     height: 270px;
-    background: #82846D;
+    background: #004a43;
     border-color: #000;
     border: 2px;
     border-style: solid;
@@ -485,7 +495,7 @@ div.content.grid{
     width: 30%;
     height: 25px;
     cursor: pointer;
-    background: #95A472;
+    background: #2d991a;
     color: white;
     border: none;
     font-size: 0.9rem;
@@ -493,11 +503,19 @@ div.content.grid{
 }
 
 .prof-adpt:hover{
-    background: #82846D;
+    background: #004a43;
     border-color: #000;
     border-style: solid;
     transition: 0.3s;
     border-width: 1px;
 }
 
+/*--Success Page--*/
 
+.success{
+    width: 100%;
+    height: 74.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
