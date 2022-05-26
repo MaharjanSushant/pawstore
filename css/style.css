@@ -444,6 +444,18 @@ div.content.grid{
     margin-bottom: 10px;
 }
 
+#city{
+    width: 250px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+#gender{
+    width: 250px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
 .form-btn{
     width: 8%;
     height: 30px;
